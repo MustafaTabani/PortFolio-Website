@@ -1,0 +1,62 @@
+#side-bar{
+    width: 18%;
+    height: 56vh;
+    /* background-color: yellow; */
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly ;
+    margin: 0;
+    padding: 0;
+}
+#side-bar > img{
+    border-radius: 5%;
+    width: 50%;
+    height: 16vh;
+    margin-left: 0.5em;
+}
+#side-bar h1{
+    font-size: 1.5em;
+    margin-left: 0.5em;
+    font-weight: 500;
+}
+#side-bar p{
+    font-size: 1.0em;
+    /* font-weight: 50; */
+    color: #8A7586;
+    font-family:  Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 0.5em;
+
+}
+#side-bar p,div{
+    margin-left: 0.5em;
+}
+#side-bar p{
+    margin-top : 0em ;
+}
+#side-bar .small-box{
+    /* border: 2px solid red; */
+    font-family:  Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.9em;
+    width: 100%;
+    padding: 0.7em 0.7em 0.7em 0em;
+    /* height: 4vh; */
+    display: flex;
+    align-items: center;
+}
+#side-bar .small-box .img{
+    margin-right: 1.3em;
+}
+#side-bar #icons{
+    /* border: 2px solid red; */
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+} 
+#side-bar .small-box:hover {
+    cursor: pointer;
+    background-color: #d7ced6;
+}
+#side-bar .fa-brands:hover{
+    color: #e18dd8;
+}
